@@ -37,6 +37,7 @@ Title: A classification model for lncRNA and mRNA based on k-mers and a convolut
 ## Code Structure
 - `main.ipynb`: Jupyter notebook containing the main code.
 - `utils.py`: Utility functions.
+- `models.py`: cnn and ml models.
 - `data/`: Directory containing dataset files.
 - `models/`: Directory for saving trained models.
 - `results/`: Directory for storing evaluation results.
