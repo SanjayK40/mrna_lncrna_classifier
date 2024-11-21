@@ -1,0 +1,15 @@
+Data_Path:
+  lncrna: "/home/snjay/Desktop/projects/mrna_lncrna_classifier/data/lncRNA.fasta"
+  mrna: "/home/snjay/Desktop/projects/mrna_lncrna_classifier/data/mRNA.fasta"
+
+CNN_model:
+  hidden_dim: 3
+  epochs: 200
+  learning_rate: 0.01
+  loss: "categorical_crossentropy"
+  optimizer: "Adadelta"
+  
+Model_Path:
+  CNN: "/home/snjay/Desktop/projects/mrna_lncrna_classifier/saved models/model_cnn2.h5"
+  SVM: "/home/snjay/Desktop/projects/mrna_lncrna_classifier/saved models/model_svm2.pkl"
+  XGBOOST: "/home/snjay/Desktop/projects/mrna_lncrna_classifier/saved models/model_xgboost2.json"
